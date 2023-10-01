@@ -1,0 +1,236 @@
+/* Cambiar el color del texto a azul y el tamaño de la fuente */
+.navbar-brand {
+  color: white;
+  font-size: 25px;
+}
+
+span {
+  color: blueviolet;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+/* Caja contenedora lista desplegable*/
+.offcanvas {
+  background-color: rgb(230, 225, 225);
+  block-size: 100px;
+}
+
+body {
+  font-size: 14px;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Estilo para el botón de acceso a clientes */
+.botonlogin {
+  font-size: 14px;
+  background-color: none;
+  color: #FFA500;
+  border-color: #FFA500;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.botonlogin:hover {
+  font-size: 14px;
+  background-color: #FFA500;
+  color: white;
+  border-color: #FFA500;
+  margin-left: auto;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.enlacesbarra {
+  font-size: 16px;
+  color: white;
+  margin-left: auto;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.enlacesbarra:hover {
+  color: #FFA500;
+}
+
+/* Estilo para la sección "Nosotros" */
+.text-center h1 {
+  font-size: 36px;
+  margin-top: 80px;
+}
+
+/* Estilo para el texto de Misión y Visión */
+.col-md-6 h2 {
+  font-size: 24px;
+}
+
+.col-md-6 p {
+  font-size: 16px;
+}
+
+/* Estilo para la imagen con opacidad */
+.col-md-6 img.opacity-50 {
+  opacity: 0.5;
+}
+
+/* Estilo para el contenedor */
+.container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Estilo para el texto dentro del contenedor */
+.container p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Estilo para el título dentro del contenedor */
+.container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6f32be;
+  margin-bottom: 10px;
+}
+
+/* Estilo para el nombre del CEO */
+.container p strong {
+  font-weight: bold;
+  color: #6f32be;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 50vh; /* Establece la altura deseada, en este caso, el 50% de la altura de la ventana (viewport) */
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Mantiene la proporción original y recorta si es necesario */
+  opacity: 0.5;
+}
+
+/* Estilo para el título del banner */
+
+
+/* Estilos para la superposición de contenido */
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: none;
+  color: black;
+  padding: 5%;
+}
+
+/* Estilos para el contenido dentro de la superposición */
+.overlay-container .container {
+  position: relative;
+  z-index: 5;
+}
+
+/* Estilos para el contenedor de la imagen */
+.image-container {
+  position: relative;
+}
+
+/* Estilos para la imagen en el lado derecho */
+.half-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 50%;
+  max-height: 100%;
+}
+
+
+/* Estilos para el banner */
+.banner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: auto; /* Establece la altura deseada, en este caso, el 50% de la altura de la ventana (viewport) */
+}
+
+.banner img {
+  width: 100%;
+
+  object-fit: cover; /* Mantiene la proporción original y recorta si es necesario */
+  opacity: 0.5;
+  overflow: hidden;
+  height: 90vh; 
+  
+}
+
+/* Estilos para el título y subtítulo */
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 5%; /* Ajusta la posición izquierda según tus necesidades */
+  right: 20%;
+  transform: translateY(-50%);
+  color: black; /* Cambia el color del texto si es necesario */
+  font-size: 2rem; /* Ajusta el tamaño del título si es necesario */
+  z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+}
+
+.banner-text h1 {
+  font-size: 45px; /* Tamaño de fuente del título */
+  margin-bottom: 2px; /* Espacio inferior del título */
+  margin-top: 5px;
+  margin-left: 10%;
+}
+
+.banner-text p {
+  font-size: 26px; /* Tamaño de fuente del subtítulo */
+  margin-top: 2px; /* Espacio superior del subtítulo */
+  margin-right: 5%;
+  margin-left: 10%;
+  color: #6f32be;
+}
+
+/* Estilos para la imagen en el lado derecho */
+.half-image {
+  max-width: 50%; /* Ajusta el ancho según tus necesidades */
+  max-height: 100%;
+  float: right; /* Alinea la imagen a la derecha */
+  margin-top: 3px; /* Ajusta el margen superior según tus necesidades */
+  margin: right 0;; /* Ajusta el margen derecho según tus necesidades */
+  
+
+}
+
+.text-center{
+
+color: black;
+width: auto;
+height: auto;
+background: beige;
+background: rgb(0, 0, 0, 0.5);
+color: white;
+padding: 5%;
+
+}
+
+
+/* Estilo para centrar el formulario y el contenido */
+.contacto {
+
+  
+margin: 0;
+background-color: beige;
+width: 340px;
+height: 440px;
+border-radius: 8px ;
+padding: 20px 30px;
+
+}
+
